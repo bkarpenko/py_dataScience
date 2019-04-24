@@ -1,0 +1,38 @@
+http://www.youtube.com/playlist?list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD - YT channel on git versions control
+https://www.dataschool.io/git-quick-reference-for-beginners/ - git commands
+
+
+
+pwd - get current working directory
+cd ~/<new directory> - change working directory
+ls - cd lss - see files
+git remote -v  - chech remote refferences 
+git status - discover which file(s) have been changed since the last save
+git diff <directory> <filename>- see what changes have been made to the files
+git log <directory> <filename> - view the log of the project's history (Press the space bar to go down a page or the 'q' key to quit)
+
+
+
+
+git clone <link on repository> - clone repository on local computer
+git add <file name1> <file name2>
+git commit -m "<comments on made changes>"
+git push origin master - отправить в репозиторий на github (origin) ветку master (на локальном компьютере)
+git branch <name of branch> - create branch
+git checkout <name of branch> - switch to branch
+git branch -m <oldname> <newname> - rename specific branch
+git branch <newname> - rename current branch
+#checkout to main branch  git merge <brach name to merge with main brand> 
+git reset HEAD -- <file> - delete file from staged
+ 
+git rm file1.txt
+
+git commit -m "comment on your action" - save files in staged area and make comment on what was done
+dit commit --ammend -m "new comment" - change comment
+
+But if you want to remove the file only from the Git repository and not remove it from the filesystem, use:
+
+git rm --cached file1.txt
+git commit -m "remove file1.txt"
+ 
+
